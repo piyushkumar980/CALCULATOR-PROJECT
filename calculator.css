@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    border: 2px solid black;
+    width: 30rem;
+    height: 35rem;
+    z-index: 100;
+    background-color: rgb(244, 238, 231);
+}
+input{
+    border: 2px solid black;
+    height: 15rem;
+    margin: 15px 30px;
+    border-radius: 5px;
+    padding: 30px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#main-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin: 15px 50px;
+}
+.content-button{
+    margin-left: 27px;
+   height:55px;
+   width: 60px;
+   font-size: 1.2rem;
+   font-weight: 700;
+   background-color: rgb(71, 70, 70);
+   color: white;
+   border-radius: 8px;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin: 5px 50px;
+}
+.footer-button1{
+    height:55px;
+    width: 60px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 5.7rem;
+    background-color: rgb(71, 70, 70);
+    color: white;
+    border-radius: 8px;
+}
+.footer-button2{
+    height:55px;
+    width: 60px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    background-color: rgb(71, 70, 70);
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
